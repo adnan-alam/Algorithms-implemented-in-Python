@@ -1,16 +1,14 @@
 # using for loop
-
 def linearSearch(array,item):
     for i in array:
         if i == item:
             return True
             break
-        else:
-            return False
+    else:
+        return False
  
  
 # using while loop
-
 def linearSearch(array,item):
     
     found = False
