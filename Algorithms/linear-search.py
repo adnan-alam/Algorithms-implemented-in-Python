@@ -5,8 +5,8 @@ def linearSearch(array,item):
         if i == item:
             return True
             break
-    else:
-        return False
+        else:
+            return False
  
  
 # using while loop
